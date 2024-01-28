@@ -4,7 +4,7 @@ import { exec } from "child_process";
 import fs from "fs";
 
 export function createPocketBaseInstance(id: string) {
-  const sourcePath = path.join(__dirname, "../../", "pocketbase_template");
+  const sourcePath = path.join(__dirname, "../../", "pocketbase_template", process.env.PB_V!);
   const destinationPath = path.join(
     __dirname,
     "../../",

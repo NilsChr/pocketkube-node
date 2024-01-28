@@ -13,6 +13,7 @@ import "cross-fetch/polyfill";
 export * from "./admin";
 export * from "./instance";
 export * from "./processes";
+export * from "./downloader";
 
 //@ts-ignore
 global.EventSource = eventsource;

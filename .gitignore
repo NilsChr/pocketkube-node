@@ -1,4 +1,6 @@
 pocketbase_instances/*
+pocketbase_template/*
+
 node_modules
 .env
 cert.pem
