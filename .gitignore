@@ -1,0 +1,5 @@
+pocketbase_instances/*
+node_modules
+.env
+cert.pem
+key.pem
