@@ -32,8 +32,6 @@ await unzipFile(
   `../pocketbase_template/PB_${process.env.PB_V}`
 );
 
-//await chmodRecursiveSync(`./pocketbase_template/PB_${process.env.PB_V}`, 0o755)
-//await chmodRecursiveSync(path.join(__dirname, '..', './pocketbase_instances'), 2)
 await killPocketBaseProcesses();
 
 for (let instance of instances) {
